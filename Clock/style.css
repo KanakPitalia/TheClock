@@ -1,0 +1,42 @@
+*{
+     box-sizing: border-box;
+     font-family:Gotham Rounded,sans-serif;
+     font-size:larger;
+     font-weight:bold;
+ }
+ body{
+     background:linear-gradient(90deg, rgba(0, 21, 36, 1) 0%, rgba(9, 121, 101, 1) 67%, rgba(0, 255, 196, 1) 100%);
+ }
+ .clock{
+    background-color: rgb(121, 202, 185,0.8);
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    box-shadow:10px 5px 5px rgba(0,1, 0, 0.1);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+ }
+
+ .number{
+     /* background:lavender; */
+     position:absolute;
+     width:400px;
+     height:400px;
+     text-align:center;
+    transform:rotate(var(--rotate));
+ }
+
+ .number1{--rotate:30deg;}
+ .number2{--rotate:60deg;}
+ .number3{--rotate:90deg;}
+ .number4{--rotate:120deg;}
+ .number5{--rotate:150deg;}
+ .number6{--rotate:180deg;}
+ .number7{--rotate:210deg;}
+ .number8{--rotate:240deg;}
+ .number9{--rotate:270deg;}
+ .number10{--rotate:300deg;}
+ .number11{--rotate:330deg;}
+ 
